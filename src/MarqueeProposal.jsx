@@ -4,20 +4,21 @@ const MarqueeProposal = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const sentences = [
-    "You light up my world like no one else.",
-    "Every moment with you feels like magic.",
-    "My world begins and ends with you in it.",
-    "You're the reason my heart beats faster.",
-    "Life feels complete when you're around.",
-    "I can't imagine my future without you.",
-    "You're my sunshine on the darkest days.",
-    "With you, every day is a blessing.",
-    "You’re the missing piece that completes my heart.",
-    "You make even ordinary moments feel extraordinary.",
-    "You make my world brighter and happier.",
-    "You're the dream I never want to wake up from.",
-    "Will you be the love of my life forever?",
+    "宝，我对你的爱就像拖拉机上山，轰轰烈烈。",
+    "你是我的北极星，没有你我找不到方向。",
+    "遇见你之后，我就有了弱点，也有了铠甲。",
+    "我对你的爱，就像鱼离不开水，太阳离不开光。",
+    "我想变成风，这样就能天天围着你转。",
+    "你是我这辈子走丢了，还想再找回来的宝贝。",
+    "你不是最好的，但有你比什么都好。",
+    "我最近有点忙，忙着喜欢你。",
+    "你是天上的星，我是地上的灯，我们遥遥相望，互相辉映。",
+    "你的名字虽然只有三个字，却已经装满了我的心。",
+    "我愿意陪你从青涩时光走到白发苍苍。",
+    "喜欢你，是我这辈子做过最勇敢的事。",
+    "你的笑容就像冬天的暖阳，让我沉醉其中。",
   ];
+
 
   useEffect(() => {
     const interval = setInterval(() => {
